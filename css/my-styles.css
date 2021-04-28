@@ -16,6 +16,10 @@ body{
 /* .breadcrumbs > a#menu_home > .zmdi-home {
     color: #FC6767;
 } */
+.breadcrumbs{
+    width: 80%;
+    margin: auto;
+}
 
 .breadcrumbs a {
     position: relative;
