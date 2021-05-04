@@ -5,32 +5,56 @@ body{
     /* background-color: #5d4b56; */
 }
 
+/*************containers*****************/
+.inner_container{
+    width: 51%;
+    padding: 1rem;
+}
+
 /*****************menu styles***********/
 
 #main_content {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
+
+/**************************section headings***************************/
+
+h2{
+    font-size: 1.3rem;
+    margin: 0.5rem 3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: teal;
+    /* background: -webkit-linear-gradient(left, blue,yellowgreen,red,purple); */
+        /* -webkit-background-clip: text; */
+        /* -webkit-text-fill-color: transparent; */
+}
+/*********************ends*****************/
+
+/**************************************BREADCRUMB MENU*********************************/
 
 /* .breadcrumbs > a#menu_home > .zmdi-home {
     color: #FC6767;
 } */
 .breadcrumbs{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    background-color:teal;
 }
 
 .breadcrumbs a {
     position: relative;
     float: left;
     padding-left: 60px;
-    padding-right: 10px;
+    padding-right: 40px;
     text-decoration: none;
     line-height: 40px;
-    color: #BFC2C7;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
-    background-color:#0f170aeb;
+    /* background-color:teal; */
+    background: transparent linear-gradient(90deg, teal 0%, #5d4b56 100%);
     transition: background-color 0.1s;
 }
 
@@ -46,22 +70,20 @@ body{
     z-index: 1;
     width: 38px;
     height: 38px;
-    background-color: #0f170aeb;
+    background-color: #4a9c9c;
     border-radius: 50px 0 0 0;
     transform: rotate(-45deg) scale(0.73);
 }
 
 .breadcrumbs a:not(:first-child):hover,
 .breadcrumbs a:not(:first-child).active {
-    background: transparent linear-gradient(90deg, #a5939e 0%, #5d4b56 100%)
+    background: transparent linear-gradient(90deg, teal 0%, #eee4ea 100%)
 }
 
 .breadcrumbs a:not(:first-child):hover::after,
 .breadcrumbs a:not(:first-child).active::after {
     background-color: #c7bdbd;
 }
-
-/* ----- Contenu des différents batchs ----- */
 
 #batch_more_content {
     margin-top: 20px;
@@ -70,3 +92,4 @@ body{
 .none {
     display: none;
 }
+/*********************ends*****************/
