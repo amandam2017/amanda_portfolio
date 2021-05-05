@@ -119,12 +119,14 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  /* color: #bd5d38; */
+  color: teal;
+  text-transform: none;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  /* color: #824027; */
   /* text-decoration: underline; */
 }
 
