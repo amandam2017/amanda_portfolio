@@ -23,8 +23,9 @@ body{
 
 h2{
     font-size: 1.3rem;
-    margin: 0.5rem 3%;
-    text-align: center;
+    /* margin: 0.5rem 3%; */
+    margin: 0.5rem 0;
+    /* text-align: center; */
     text-transform: uppercase;
     color: teal;
     /* background: -webkit-linear-gradient(left, blue,yellowgreen,red,purple); */
@@ -34,10 +35,12 @@ h2{
 /*********************ends*****************/
 
 /**************************************BREADCRUMB MENU*********************************/
+#batch_more_content h2{
+    font-size: 1.3rem;
+    padding: 0 0 1.5em 0;
+    text-align: center;
+}
 
-/* .breadcrumbs > a#menu_home > .zmdi-home {
-    color: #FC6767;
-} */
 .breadcrumbs{
     width: 100%;
     margin: auto;
@@ -47,13 +50,12 @@ h2{
 .breadcrumbs a {
     position: relative;
     float: left;
-    padding-left: 60px;
-    padding-right: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
     text-decoration: none;
     line-height: 40px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    /* background-color:teal; */
     background: transparent linear-gradient(90deg, teal 0%, #5d4b56 100%);
     transition: background-color 0.1s;
 }
@@ -93,3 +95,13 @@ h2{
     display: none;
 }
 /*********************ends*****************/
+
+
+/* resume styles */
+@media (min-width: 992px){
+    section.resume-section {
+        padding-top: 2rem;
+    }
+}
+
+/* resume styles ends */
