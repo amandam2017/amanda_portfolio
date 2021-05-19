@@ -23,14 +23,9 @@ body{
 
 h2{
     font-size: 1.3rem;
-    /* margin: 0.5rem 3%; */
     margin: 0.5rem 0;
-    /* text-align: center; */
     text-transform: uppercase;
-    color: teal;
-    /* background: -webkit-linear-gradient(left, blue,yellowgreen,red,purple); */
-        /* -webkit-background-clip: text; */
-        /* -webkit-text-fill-color: transparent; */
+    color: #152069;
 }
 /*********************ends*****************/
 
@@ -44,7 +39,7 @@ h2{
 .breadcrumbs{
     width: 100%;
     margin: auto;
-    background-color:teal;
+    background-color:#152069;
 }
 
 .breadcrumbs a {
@@ -56,7 +51,7 @@ h2{
     line-height: 40px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    background: transparent linear-gradient(90deg, teal 0%, #5d4b56 100%);
+    background: transparent linear-gradient(90deg, #152069 0%, #f069 100%);
     transition: background-color 0.1s;
 }
 
@@ -79,16 +74,12 @@ h2{
 
 .breadcrumbs a:not(:first-child):hover,
 .breadcrumbs a:not(:first-child).active {
-    background: transparent linear-gradient(90deg, teal 0%, #eee4ea 100%)
+    background: transparent linear-gradient(90deg, #152069 0%, #eee4ea 100%)
 }
 
 .breadcrumbs a:not(:first-child):hover::after,
 .breadcrumbs a:not(:first-child).active::after {
     background-color: #c7bdbd;
-}
-
-#batch_more_content {
-    margin-top: 20px;
 }
 
 .none {
@@ -105,8 +96,18 @@ h2{
 }
 
 #page-top{
-    background: #a386bf;
+    background: #343a40;
     padding-left: 17rem;
+    position: relative;
 }
 
 /* resume styles ends */
+
+/*******backgrounds*********/
+.dark{
+    background-color: #152069;
+}
+
+.accepted{
+    background-color: #fff;
+}

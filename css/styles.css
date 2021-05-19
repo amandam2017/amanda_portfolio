@@ -120,7 +120,7 @@ sup {
 
 a {
   /* color: #bd5d38; */
-  color: teal;
+  color: #152069;
   text-transform: none;
   text-decoration: none;
   background-color: transparent;
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: teal;
+  color: #152069;
 }
 
 h1, .h1 {
@@ -9989,7 +9989,7 @@ p.lead {
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     display: flex;
@@ -10032,8 +10032,8 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #fff;
-  color: teal;
-  border: 1px solid teal;
+  color: #152069;
+  border: 1px solid #152069;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -10042,7 +10042,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: teal;
+  background-color: #152069;
   color: #fff;  
 }
 
@@ -10055,8 +10055,8 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
   max-width: 75rem;
 }
 section.resume-section .resume-section-content {

@@ -1891,7 +1891,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098D1;
+  background: #152069;
+  color: #fff;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;

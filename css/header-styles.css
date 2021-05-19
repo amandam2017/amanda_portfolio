@@ -6,7 +6,7 @@
 
 h1{
     font-size: 1.0rem;
-    color: teal;
+    color: #152069;
 }
 
 
@@ -15,6 +15,10 @@ h3{
     margin: 0.5rem 3%;
     text-align: center;
     color: #5d4b56;
+}
+
+h2{
+    color: #fff;
 }
 ul li{
     font-size: 0.8em;
@@ -28,7 +32,7 @@ p{
 }
 
 .header_section{
-    background: -webkit-linear-gradient(45deg, teal,transparent);
+    background: -webkit-linear-gradient(45deg, #152069,transparent);
     height: 60vh;
 }
 
@@ -39,7 +43,7 @@ p{
         /* background: -webkit-linear-gradient(left, blue,yellowgreen,red,purple);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; */
-        color: teal;
+        color: #152069;
         font-size: 2rem;
         margin: 0;
     }
