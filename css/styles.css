@@ -6036,9 +6036,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
+/* .bg-primary {
   background-color: #343a40 !important;
-}
+} */
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
@@ -10025,7 +10025,7 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
+/* .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10044,7 +10044,7 @@ p.lead {
 .social-icons .social-icon:hover {
   background-color: #152069;
   color: #fff;  
-}
+} */
 
 .dev-icons {
   font-size: 3rem;
